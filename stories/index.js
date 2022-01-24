@@ -160,7 +160,7 @@ storiesOf("Appointment", module)
   .add("Status", () => <Status/>)
   .add("Error", () => <Error onClose={action("onClose")}/>)
   .add("Form: create", () => <Form interviewers={interviewers} onCancel={action("onCancel")} onSave={action("onSave")}/> )
-  .add('Form: edit', () => (<Form name="Georgina" interviewers={interviewers} interviewer={4} onSave={action('onSave')} onCancel={action('onCancel')}
+  .add('Form: edit', () => (<Form name="Gigi" interviewers={interviewers} interviewer={4} onSave={action('onSave')} onCancel={action('onCancel')}
     />
   ))
   .add("Appointment Empty", () => (
