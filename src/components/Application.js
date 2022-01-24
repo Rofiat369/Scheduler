@@ -12,9 +12,8 @@ export default function Application(props) {
     appointments: {},
     interviewers:{}
   });
-
   const setDay = (day) => setState((prev) => ({ ...prev, day }));
-  //const setDays = (days) => setState((prev) => ({ ...prev, days }));
+  
 
   useEffect(() => {
       const daysAPI = `http://localhost:8001/api/days`;
@@ -46,8 +45,6 @@ export default function Application(props) {
           {...appointment}
           interview={interviewObj}
           interviewers={interviewers}
-          //bookInterview={bookInterview}
-          //cancelInterview={cancelInterview}
         />
       );
     });
@@ -72,9 +69,7 @@ export default function Application(props) {
         />
       </section>
       <section className="schedule">
-      {/* {dailyAppointments.map((appointment) => (
-          <Appointment key={appointment.id} {...appointment} />
-        ))} */} {appointmentList}
+       {appointmentList}
         <Appointment key="last" time="5pm" />
       </section>
     </main>
