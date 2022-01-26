@@ -9,14 +9,14 @@ import Button from "components/Button";
 import DayList from "components/DayList";
 import InterviewerListItem from "components/InterviewerListItem";
 import InterviewerList from "components/InterviewerList";
-import Appointment from "components/Appointment/index.js";
-import Header from "components/Appointment/header";
-import Empty from "components/Appointment/empty";
-import Show from "components/Appointment/show";
-import Confirm from "components/Appointment/confirm";
-import Status from "components/Appointment/status";
-import Error from "components/Appointment/error";;
-import Form from "components/Appointment/form";
+import Appointment from "components/Appointment/Index.js";
+import Header from "components/Appointment/Header";
+import Empty from "components/Appointment/Empty";
+import Show from "components/Appointment/Show";
+import Confirm from "components/Appointment/Confirm";
+import Status from "components/Appointment/Status";
+import Error from "components/Appointment/Error";;
+import Form from "components/Appointment/Form";
 import { Fragment } from 'react';
 
 storiesOf("Button", module)
