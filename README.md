@@ -14,10 +14,10 @@ Interview Scheduler is a SPA (Single Page Application) for tracking students int
 
 6) Days display currently remaining spots and it it updates after each modification 
 
-!["Editing an appointment"](/home/rofiat/lighthouse/w7/Scheduler/docs/appointment-edit.png)
-!["Unedited appointment form"](/home/rofiat/lighthouse/w7/Scheduler/docs/appointment-form.png)
-!["End to End testing with cypress"](/home/rofiat/lighthouse/w7/Scheduler/docs/cypresstest.png)
-!["Delete appointment confirmation"](/home/rofiat/lighthouse/w7/Scheduler/docs/delete-confirmation.png)
+!["Editing an appointment"](https://github.com/Rofiat369/Scheduler/blob/master/docs/appointment-edit.png)
+!["Unedited appointment form"](https://github.com/Rofiat369/Scheduler/blob/master/docs/appointment-form.png)
+!["End to End testing with cypress"](https://github.com/Rofiat369/Scheduler/blob/master/docs/cypresstest.png)
+!["Delete appointment confirmation"](https://github.com/Rofiat369/Scheduler/blob/master/docs/delete-confirmation.png)
 ## Setup
 
 Install dependencies with `npm install`.
